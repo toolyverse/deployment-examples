@@ -8,8 +8,6 @@ RUN bun install --frozen-lockfile
 
 COPY . .
 
-RUN cp -r public/* / 2>/dev/null || :
-
 RUN bun run build
 
 FROM nginx:alpine
