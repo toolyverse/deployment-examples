@@ -355,7 +355,6 @@ composer.lock
 secrets/
 secret.yaml
 secret.yml
-app
 
 *.db
 *.sqlite
